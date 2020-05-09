@@ -23,7 +23,7 @@ d = np.sqrt((x-a)**2 + (y-a)**2)
 res = sum(np.where(d<r,1,0)) #numpy.where(conditon,x,y) 满足条件输出x，不满足输出y
 
 pi = res/n*4
-print('pi:',pi)
+print('pi=',pi)
 #计算pi的近似值，蒙特卡洛模拟方法，用统计值去近似真实值
 
 #绘制圆形子图
